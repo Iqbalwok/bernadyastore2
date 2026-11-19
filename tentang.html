@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <!-- Site Header & Navbar (Glassmorphic & Smooth) -->
+                            <!-- Site Header & Navbar (Glassmorphic & Smooth) -->
     <header class="site-header">
         <div class="container">
             <nav class="navbar" aria-label="Navigasi Utama">
@@ -31,8 +31,8 @@
                         </svg>
                     </div>
                     <div class="brand-text">
-                        <span class="brand-title">Bernadya Store</span>
-                        <span class="brand-subtitle">Digital Solutions</span>
+                        <span class="brand-title">Bernadya <span class="brand-title-accent">Store</span></span>
+                        <span class="brand-subtitle">Curated Digital Goods</span>
                     </div>
                 </a>
 
@@ -43,10 +43,16 @@
                             <a href="index.html" class="nav-link">Beranda</a>
                         </li>
                         <li>
-                            <a href="produk.html" class="nav-link">Produk Digital</a>
+                            <a href="produk.html" class="nav-link">
+                                <span>Produk Digital</span>
+                                <span class="nav-link-badge">24+</span>
+                            </a>
                         </li>
                         <li>
-                            <a href="cerita.html" class="nav-link">Cerita Kami</a>
+                            <a href="cerita.html" class="nav-link">
+                                <span>Cerita Kami</span>
+                                <span class="nav-link-badge nav-link-badge-story">4 Kisah</span>
+                            </a>
                         </li>
                         <li>
                             <a href="tentang.html" class="nav-link active">Tentang Kami</a>
@@ -61,10 +67,10 @@
 
                     <div class="nav-actions">
                         <a href="kontak.html" class="btn btn-primary btn-sm">
-                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                 <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
                             </svg>
-                            Hubungi Kami
+                            <span>Hubungi Kami</span>
                         </a>
                     </div>
                 </div>
@@ -83,28 +89,84 @@
             <div class="nav-mobile-content">
                 <ul class="nav-mobile-list">
                     <li class="nav-mobile-item">
-                        <a href="index.html" class="">Beranda</a>
+                        <a href="index.html" class="">
+                            <div class="nav-mobile-link-left">
+                                <span class="nav-mobile-link-icon">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+                                </span>
+                                <span>Beranda</span>
+                            </div>
+                            <span class="nav-mobile-chevron">&rarr;</span>
+                        </a>
                     </li>
                     <li class="nav-mobile-item">
-                        <a href="produk.html" class="">Produk Digital</a>
+                        <a href="produk.html" class="">
+                            <div class="nav-mobile-link-left">
+                                <span class="nav-mobile-link-icon">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+                                </span>
+                                <span>Produk Digital</span>
+                            </div>
+                            <span class="nav-link-badge">24+</span>
+                        </a>
                     </li>
                     <li class="nav-mobile-item">
-                        <a href="cerita.html" class="">Cerita Kami</a>
+                        <a href="cerita.html" class="">
+                            <div class="nav-mobile-link-left">
+                                <span class="nav-mobile-link-icon">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
+                                </span>
+                                <span>Cerita Kami (4 Kisah Nyata)</span>
+                            </div>
+                            <span class="nav-mobile-chevron">&rarr;</span>
+                        </a>
                     </li>
                     <li class="nav-mobile-item">
-                        <a href="tentang.html" class="active">Tentang Kami</a>
+                        <a href="tentang.html" class=" active">
+                            <div class="nav-mobile-link-left">
+                                <span class="nav-mobile-link-icon">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+                                </span>
+                                <span>Tentang Kami</span>
+                            </div>
+                            <span class="nav-mobile-chevron">&rarr;</span>
+                        </a>
                     </li>
                     <li class="nav-mobile-item">
-                        <a href="faq.html" class="">FAQ</a>
+                        <a href="faq.html" class="">
+                            <div class="nav-mobile-link-left">
+                                <span class="nav-mobile-link-icon">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
+                                </span>
+                                <span>FAQ</span>
+                            </div>
+                            <span class="nav-mobile-chevron">&rarr;</span>
+                        </a>
                     </li>
                     <li class="nav-mobile-item">
-                        <a href="kontak.html" class="">Kontak</a>
+                        <a href="kontak.html" class="">
+                            <div class="nav-mobile-link-left">
+                                <span class="nav-mobile-link-icon">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                                </span>
+                                <span>Kontak</span>
+                            </div>
+                            <span class="nav-mobile-chevron">&rarr;</span>
+                        </a>
                     </li>
                 </ul>
 
-                <a href="kontak.html" class="btn btn-primary" style="width: 100%;">
-                    Konsultasi via WhatsApp
+                <a href="https://wa.me/6285714310516?text=Halo%20Admin%20Bernadya%20Store%2C%20saya%20ingin%20konsultasi%20aplikasi%20premium" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp" style="width: 100%; border-radius: 14px;">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+                    </svg>
+                    <span>Konsultasi via WhatsApp</span>
                 </a>
+
+                <div class="nav-mobile-status">
+                    <span class="nav-mobile-status-dot"></span>
+                    <span>Customer Service Online 24/7</span>
+                </div>
             </div>
         </div>
     </header>
@@ -248,6 +310,164 @@
 </section>
 
 <!-- Komitmen Layanan & CTA Banner -->
+
+<!-- 4 Kisah Nyata Sahabat Bernadya (Tucked in Tentang Kami) -->
+<section class="section section-white" id="kisah-sahabat">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag">Bukti Nyata Solusi Kami</span>
+            <h2>4 Jejak Perjalanan Sahabat Bernadya Store</h2>
+            <p>Di balik ribuan akun aktif, ada manusia-manusia tangguh yang berjuang mewujudkan karya terbaik mereka. Inilah bukti nyata bagaimana akses aplikasi premium legal dan bergaransi mengubah keseharian mereka.</p>
+        </div>
+
+<div class="story-persona-grid" style="margin-bottom: var(--spacing-2xl);">
+            <!-- Persona 1: Sarah -->
+            <article class="story-persona-card">
+                <div class="persona-image-header">
+                    <img src="assets/images/slide-creative.jpg" alt="Sarah Annisa - Freelance Graphic Designer" loading="lazy">
+                    <span class="persona-tag-pill">🎨 Desain &amp; Kreator</span>
+                </div>
+                <div class="persona-card-body">
+                    <div class="persona-header-meta">
+                        <div class="persona-name-role">
+                            <h3>Sarah Annisa (24 Tahun)</h3>
+                            <span>Freelance Graphic Designer &bull; Bandung</span>
+                        </div>
+                    </div>
+                    <div class="persona-tools-stack">
+                        <span class="persona-tool-badge">Canva Pro</span>
+                        <span class="persona-tool-badge">CapCut Pro</span>
+                    </div>
+                    <h4 style="font-size: 1.08rem; color: var(--color-navy); margin-bottom: 0.65rem; line-height: 1.4; font-weight: 700;">
+                        "Dari Desainer Minim Modal Jadi Punya 5 Klien UMKM Tetap"
+                    </h4>
+                    <div class="persona-quote-box">
+                        "Dulu pusing nyari aset grafis tanpa watermark. Sekarang workflow desain saya 3x lebih cepat dan rutin handle 5 klien UMKM tetap!"
+                    </div>
+                    <p class="persona-story-desc">
+                        Waktu awal freelance di kosan Bandung, Sarah selalu kehabisan waktu berjam-jam hanya mencari aset grafis gratis tanpa watermark hak cipta. Mau langganan resmi Canva &amp; CapCut, biayanya mahal dan wajib kartu kredit. Di Bernadya Store, Sarah mengaktifkan akun resmi dalam 5 menit via WA dengan harga kantong mahasiswa. Hasilnya, pengerjaan konten sosial media dipangkas dari 6 jam jadi hanya 90 menit per proyek.
+                    </p>
+                    <div class="persona-card-footer">
+                        <span class="persona-stat-chip">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline><polyline points="17 6 23 6 23 12"></polyline></svg>
+                            Efisiensi Kerja Naik 75%
+                        </span>
+                        <a href="produk/canva-pro.html" class="btn btn-outline btn-sm">Lihat Canva Pro &rarr;</a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Persona 2: Dimas -->
+            <article class="story-persona-card">
+                <div class="persona-image-header">
+                    <img src="assets/images/slide-productivity.jpg" alt="Dimas Prasetyo - Mahasiswa Skripsi" loading="lazy">
+                    <span class="persona-tag-pill">🎓 Riset &amp; Akademisi</span>
+                </div>
+                <div class="persona-card-body">
+                    <div class="persona-header-meta">
+                        <div class="persona-name-role">
+                            <h3>Dimas Prasetyo (21 Tahun)</h3>
+                            <span>Mahasiswa Teknik Informatika &bull; Yogyakarta</span>
+                        </div>
+                    </div>
+                    <div class="persona-tools-stack">
+                        <span class="persona-tool-badge">ChatGPT Plus (GPT-4o)</span>
+                        <span class="persona-tool-badge">Grammarly</span>
+                    </div>
+                    <h4 style="font-size: 1.08rem; color: var(--color-navy); margin-bottom: 0.65rem; line-height: 1.4; font-weight: 700;">
+                        "Skripsi Tuntas 2 Bulan Lebih Cepat &amp; Lolos Turnitin Cum Laude"
+                    </h4>
+                    <div class="persona-quote-box">
+                        "Skripsi saya lolos Turnitin dan tuntas 2 bulan lebih cepat berkat bantuan riset AI GPT-4o dan pengecekan tata bahasa resmi."
+                    </div>
+                    <p class="persona-story-desc">
+                        Dimas sempat stres berat saat bab pembahasan skripsinya mandek berminggu-minggu. Membaca ratusan jurnal berbahasa Inggris membuatnya kelelahan, dan ChatGPT gratisan selalu terkena limit antrean. Melalui Bernadya Store, Dimas mengaktifkan ChatGPT Plus dan Grammarly via QRIS. Analisis metodologi AI membantunya membedah riset dalam hitungan menit hingga ia lulus sidang dengan predikat Cum Laude.
+                    </p>
+                    <div class="persona-card-footer">
+                        <span class="persona-stat-chip">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline><polyline points="17 6 23 6 23 12"></polyline></svg>
+                            Skripsi Tuntas 2 Bulan Lebih Awal
+                        </span>
+                        <a href="produk/chatgpt-plus.html" class="btn btn-outline btn-sm">Lihat ChatGPT Plus &rarr;</a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Persona 3: Nadia & Raka -->
+            <article class="story-persona-card">
+                <div class="persona-image-header">
+                    <img src="assets/images/slide-entertainment.jpg" alt="Keluarga Nadia & Raka" loading="lazy">
+                    <span class="persona-tag-pill">🎬 Streaming Keluarga</span>
+                </div>
+                <div class="persona-card-body">
+                    <div class="persona-header-meta">
+                        <div class="persona-name-role">
+                            <h3>Nadia &amp; Raka (Keluarga Muda)</h3>
+                            <span>Orang Tua 2 Balita &bull; Jakarta Selatan</span>
+                        </div>
+                    </div>
+                    <div class="persona-tools-stack">
+                        <span class="persona-tool-badge">Netflix 4K UHD</span>
+                        <span class="persona-tool-badge">YouTube Premium</span>
+                    </div>
+                    <h4 style="font-size: 1.08rem; color: var(--color-navy); margin-bottom: 0.65rem; line-height: 1.4; font-weight: 700;">
+                        "Akhir Pekan Hangat Bebas Iklan &amp; Hemat Biaya Hiburan 80%"
+                    </h4>
+                    <div class="persona-quote-box">
+                        "Akhir pekan sekeluarga nonton film 4K jernih dan anak-anak bebas iklan yang tidak pantas, hemat tanpa pusing tagihan dollar."
+                    </div>
+                    <p class="persona-story-desc">
+                        Nadia cemas saat kedua anaknya sering disuguhi iklan komersial tak terduga saat menonton video edukasi anak di YouTube. Langganan resmi dollar juga menguras anggaran bulanan. Lewat Bernadya Store, paket keluarga Netflix 4K UHD dan YouTube Premium diaktifkan dalam hitungan menit di Smart TV dan tablet anak, memberikan tontonan aman sekaligus menghemat lebih dari Rp 250.000 per bulan.
+                    </p>
+                    <div class="persona-card-footer">
+                        <span class="persona-stat-chip">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline><polyline points="17 6 23 6 23 12"></polyline></svg>
+                            Hemat Rp 250rb/Bulan
+                        </span>
+                        <a href="produk/netflix-premium.html" class="btn btn-outline btn-sm">Lihat Netflix 4K &rarr;</a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Persona 4: Hendra -->
+            <article class="story-persona-card">
+                <div class="persona-image-header">
+                    <img src="assets/images/story-community.jpg" alt="Hendra Kurniawan - Remote Software Engineer" loading="lazy">
+                    <span class="persona-tag-pill">💻 Developer &amp; Tech</span>
+                </div>
+                <div class="persona-card-body">
+                    <div class="persona-header-meta">
+                        <div class="persona-name-role">
+                            <h3>Hendra Kurniawan (30 Tahun)</h3>
+                            <span>Remote Software Engineer &bull; Surabaya</span>
+                        </div>
+                    </div>
+                    <div class="persona-tools-stack">
+                        <span class="persona-tool-badge">GitHub Copilot</span>
+                        <span class="persona-tool-badge">Microsoft 365</span>
+                    </div>
+                    <h4 style="font-size: 1.08rem; color: var(--color-navy); margin-bottom: 0.65rem; line-height: 1.4; font-weight: 700;">
+                        "Sprint Coding 2x Lebih Cepat Tanpa Was-Was Akun Terblokir"
+                    </h4>
+                    <div class="persona-quote-box">
+                        "Coding sprint jadi jauh lebih efisien. Lisensi resmi aman langsung ke akun pribadi tanpa takut akun developer ke-banned."
+                    </div>
+                    <p class="persona-story-desc">
+                        Sebagai programmer remote klien luar negeri, Hendra butuh GitHub Copilot untuk menyelesaikan backlog fitur padat. Pernah tergiur lisensi murah di forum gelap yang ternyata crack bajakan, akunnya di-suspend dan proyek terhambat. Hendra lalu beralih ke Bernadya Store karena jaminan 100% lisensi resmi yang stabil dan bergaransi penuh, memangkas waktu coding boilerplate hingga 50%.
+                    </p>
+                    <div class="persona-card-footer">
+                        <span class="persona-stat-chip">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline><polyline points="17 6 23 6 23 12"></polyline></svg>
+                            Sprint Coding 50% Lebih Cepat
+                        </span>
+                        <a href="produk/github-copilot.html" class="btn btn-outline btn-sm">Lihat GitHub Copilot &rarr;</a>
+                    </div>
+                </div>
+            </article>
+        
+    </div>
+</section>
+
 <section class="section section-alt">
     <div class="container">
         <div class="cta-banner-card">

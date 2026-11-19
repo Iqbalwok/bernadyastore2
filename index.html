@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <!-- Site Header & Navbar (Glassmorphic & Smooth) -->
+                            <!-- Site Header & Navbar (Glassmorphic & Smooth) -->
     <header class="site-header">
         <div class="container">
             <nav class="navbar" aria-label="Navigasi Utama">
@@ -31,8 +31,8 @@
                         </svg>
                     </div>
                     <div class="brand-text">
-                        <span class="brand-title">Bernadya Store</span>
-                        <span class="brand-subtitle">Digital Solutions</span>
+                        <span class="brand-title">Bernadya <span class="brand-title-accent">Store</span></span>
+                        <span class="brand-subtitle">Curated Digital Goods</span>
                     </div>
                 </a>
 
@@ -43,10 +43,16 @@
                             <a href="index.html" class="nav-link active">Beranda</a>
                         </li>
                         <li>
-                            <a href="produk.html" class="nav-link">Produk Digital</a>
+                            <a href="produk.html" class="nav-link">
+                                <span>Produk Digital</span>
+                                <span class="nav-link-badge">24+</span>
+                            </a>
                         </li>
                         <li>
-                            <a href="cerita.html" class="nav-link">Cerita Kami</a>
+                            <a href="cerita.html" class="nav-link">
+                                <span>Cerita Kami</span>
+                                <span class="nav-link-badge nav-link-badge-story">4 Kisah</span>
+                            </a>
                         </li>
                         <li>
                             <a href="tentang.html" class="nav-link">Tentang Kami</a>
@@ -61,10 +67,10 @@
 
                     <div class="nav-actions">
                         <a href="kontak.html" class="btn btn-primary btn-sm">
-                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                 <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
                             </svg>
-                            Hubungi Kami
+                            <span>Hubungi Kami</span>
                         </a>
                     </div>
                 </div>
@@ -83,28 +89,84 @@
             <div class="nav-mobile-content">
                 <ul class="nav-mobile-list">
                     <li class="nav-mobile-item">
-                        <a href="index.html" class="active">Beranda</a>
+                        <a href="index.html" class=" active">
+                            <div class="nav-mobile-link-left">
+                                <span class="nav-mobile-link-icon">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+                                </span>
+                                <span>Beranda</span>
+                            </div>
+                            <span class="nav-mobile-chevron">&rarr;</span>
+                        </a>
                     </li>
                     <li class="nav-mobile-item">
-                        <a href="produk.html" class="">Produk Digital</a>
+                        <a href="produk.html" class="">
+                            <div class="nav-mobile-link-left">
+                                <span class="nav-mobile-link-icon">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+                                </span>
+                                <span>Produk Digital</span>
+                            </div>
+                            <span class="nav-link-badge">24+</span>
+                        </a>
                     </li>
                     <li class="nav-mobile-item">
-                        <a href="cerita.html" class="">Cerita Kami</a>
+                        <a href="cerita.html" class="">
+                            <div class="nav-mobile-link-left">
+                                <span class="nav-mobile-link-icon">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
+                                </span>
+                                <span>Cerita Kami (4 Kisah Nyata)</span>
+                            </div>
+                            <span class="nav-mobile-chevron">&rarr;</span>
+                        </a>
                     </li>
                     <li class="nav-mobile-item">
-                        <a href="tentang.html" class="">Tentang Kami</a>
+                        <a href="tentang.html" class="">
+                            <div class="nav-mobile-link-left">
+                                <span class="nav-mobile-link-icon">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+                                </span>
+                                <span>Tentang Kami</span>
+                            </div>
+                            <span class="nav-mobile-chevron">&rarr;</span>
+                        </a>
                     </li>
                     <li class="nav-mobile-item">
-                        <a href="faq.html" class="">FAQ</a>
+                        <a href="faq.html" class="">
+                            <div class="nav-mobile-link-left">
+                                <span class="nav-mobile-link-icon">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
+                                </span>
+                                <span>FAQ</span>
+                            </div>
+                            <span class="nav-mobile-chevron">&rarr;</span>
+                        </a>
                     </li>
                     <li class="nav-mobile-item">
-                        <a href="kontak.html" class="">Kontak</a>
+                        <a href="kontak.html" class="">
+                            <div class="nav-mobile-link-left">
+                                <span class="nav-mobile-link-icon">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                                </span>
+                                <span>Kontak</span>
+                            </div>
+                            <span class="nav-mobile-chevron">&rarr;</span>
+                        </a>
                     </li>
                 </ul>
 
-                <a href="kontak.html" class="btn btn-primary" style="width: 100%;">
-                    Konsultasi via WhatsApp
+                <a href="https://wa.me/6285714310516?text=Halo%20Admin%20Bernadya%20Store%2C%20saya%20ingin%20konsultasi%20aplikasi%20premium" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp" style="width: 100%; border-radius: 14px;">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+                    </svg>
+                    <span>Konsultasi via WhatsApp</span>
                 </a>
+
+                <div class="nav-mobile-status">
+                    <span class="nav-mobile-status-dot"></span>
+                    <span>Customer Service Online 24/7</span>
+                </div>
             </div>
         </div>
     </header>
@@ -158,9 +220,9 @@
     <div class="container">
         <div class="intro-box">
             <span class="badge">Selamat Datang di Bernadya Store</span>
-            <h2>Informasi Terpercaya untuk Seluruh Kebutuhan Aplikasi Digital</h2>
+            <h2>Tempat Jual Aplikasi Premium Terpercaya, Murah, &amp; Bergaransi Resmi</h2>
             <p>
-                Bernadya Store merupakan portal informasi dan company profile yang mengulas beragam aplikasi premium untuk produktivitas, kreativitas, dan hiburan digital. Kami menghadirkan ulasan spesifikasi, kecocokan perangkat, serta panduan aktivasi yang mudah dipahami.
+                Bernadya Store adalah destinasi terpercaya Anda untuk berlangganan aplikasi premium legal dengan harga terjangkau kantong pelajar &amp; pekerja. Nikmati aktivasi kilat 5 menit lewat WhatsApp, 100% garansi ganti baru, dan panduan lengkap ramah pemula.
             </p>
             <div style="display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center;">
                 <a href="produk.html" class="btn btn-primary">
@@ -277,63 +339,320 @@
     </div>
 </section>
 
-<!-- 3.5 Storytelling Teaser Section: Dari Keresahan Menjadi Solusi -->
-<section class="story-teaser-section">
+<!-- 3.5 Rich Storytelling Section: Bernadya Store Tempat Jual Aplikasi Premium -->
+<section class="story-showcase-section" id="kisah-bernadya">
     <div class="container">
-        <div class="story-teaser-grid">
-            <div class="story-teaser-content">
-                <span class="badge" style="background: rgba(37,99,235,0.1); color: var(--color-blue); margin-bottom: 0.75rem;">
-                    ✦ Cerita Kami
+        <!-- Section Header -->
+        <div class="story-header-box">
+            <span class="story-badge-highlight">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                </svg>
+                Kisah Kami &bull; Perjalanan Nyata
+            </span>
+            <h2>Mengapa Bernadya Store Hadir? Kisah Tempat Jual Aplikasi Premium Pilihan Anda</h2>
+            <p class="story-header-lead">
+                Berapa banyak dari kita yang ingin terus berkarya, belajar, dan produktif, namun terhambat mahalnya biaya langganan luar negeri atau terancam virus dari aplikasi bajakan? Inilah perjalanan bagaimana <strong>Bernadya Store</strong> lahir sebagai solusi terpercaya.
+            </p>
+        </div>
+
+        <!-- 3 Keresahan Nyata vs Solusi Bernadya Store -->
+        <div class="story-struggles-grid">
+            <!-- Card 1: Dollar & Credit Card -->
+            <div class="story-struggle-card">
+                <span class="struggle-badge-problem">
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"></circle><line x1="15" y1="9" x2="9" y2="15"></line><line x1="9" y1="9" x2="15" y2="15"></line></svg>
+                    Keresahan 01
                 </span>
-                <h2 style="font-size: 2rem; color: var(--color-navy); line-height: 1.3; margin-bottom: 1rem;">
-                    Di Balik Setiap Klik, Ada Ide Besar yang Ingin Diwujudkan
-                </h2>
-                <p style="font-size: var(--font-size-base); color: var(--color-text-secondary); line-height: 1.8; margin-bottom: 1.25rem;">
-                    Memilih software yang tepat seharusnya tidak membingungkan atau menakutkan. Dari mahasiswa yang mengejar beasiswa hingga kreator yang merintis studio desain mandiri, Bernadya Store hadir sebagai sahabat kurasi jujur yang membebaskan potensi digital Anda.
+                <h3 class="story-struggle-title">Biaya Langganan Dollar &amp; Wajib Kartu Kredit</h3>
+                <p class="story-struggle-desc">
+                    Biaya resmi ChatGPT Plus, Canva Pro, Netflix 4K, atau Adobe bisa mencapai ratusan ribu hingga jutaan rupiah per bulan. Ditambah lagi, proses pembayaran menuntut kartu kredit internasional yang jarang dimiliki pelajar, mahasiswa, dan pekerja lepas.
                 </p>
-
-                <div class="story-teaser-stats">
-                    <div class="story-teaser-stat-item">
-                        <h4>12+</h4>
-                        <p>Aplikasi Terkurasi</p>
-                    </div>
-                    <div class="story-teaser-stat-item">
-                        <h4>100%</h4>
-                        <p>Panduan Teruji</p>
-                    </div>
-                    <div class="story-teaser-stat-item">
-                        <h4>7 Hari</h4>
-                        <p>Dukungan Ramah</p>
-                    </div>
+                <div class="story-solution-box">
+                    <strong>Solusi Bernadya Store:</strong>
+                    <p>Harga terjangkau kantong pelajar (hemat hingga 80%), bayar instan pakai QRIS, Transfer Bank lokal, atau E-Wallet tanpa perlu kartu kredit.</p>
                 </div>
+            </div>
 
+            <!-- Card 2: Malware & APK Crack -->
+            <div class="story-struggle-card">
+                <span class="struggle-badge-problem">
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"></circle><line x1="15" y1="9" x2="9" y2="15"></line><line x1="9" y1="9" x2="15" y2="15"></line></svg>
+                    Keresahan 02
+                </span>
+                <h3 class="story-struggle-title">Bahaya APK Mod Bajakan &amp; Ransomware</h3>
+                <p class="story-struggle-desc">
+                    Karena keterbatasan dana, banyak yang tergiur mengunduh file APK crack di internet. Hasilnya mengerikan: file skripsi terserang ransomware, akun WhatsApp dibobol, malware mencuri data perbankan, dan aplikasi sering crash di tengah tugas penting.
+                </p>
+                <div class="story-solution-box">
+                    <strong>Solusi Bernadya Store:</strong>
+                    <p>100% Akun Resmi dan Legal. Tanpa download file berbahaya, tanpa root atau jailbreak, aman untuk perangkat pribadi dan pekerjaan profesional.</p>
+                </div>
+            </div>
+
+            <!-- Card 3: Seller Bodong & Tanpa Garansi -->
+            <div class="story-struggle-card">
+                <span class="struggle-badge-problem">
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"></circle><line x1="15" y1="9" x2="9" y2="15"></line><line x1="9" y1="9" x2="15" y2="15"></line></svg>
+                    Keresahan 03
+                </span>
+                <h3 class="story-struggle-title">Seller Bodong Medsos yang Menghilang</h3>
+                <p class="story-struggle-desc">
+                    Mencoba beli akun murah di media sosial, namun baru 3 hari akun sudah mati terkena suspend. Saat ditanya ke penjual, chat diblokir, admin menghilang, dan uang melayang begitu saja tanpa ada pertanggungjawaban garansi.
+                </p>
+                <div class="story-solution-box">
+                    <strong>Solusi Bernadya Store:</strong>
+                    <p>Garansi Penuh 100% Ganti Baru. Didukung customer support WhatsApp ramah yang aktif merespons 24/7 hingga masa langganan selesai.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Deep Narrative Row with Visual -->
+        <div class="story-deep-row">
+            <div class="story-deep-content">
+                <span class="badge" style="background: rgba(16, 185, 129, 0.1); color: #059669; font-weight: 700; margin-bottom: 0.75rem;">
+                    ✦ Lahirnya Bernadya Store
+                </span>
+                <h3>Dari Meja Kerja Sederhana Menjadi Sahabat Digital Ribuan Pengguna</h3>
+                <p>
+                    Bernadya Store berawal dari inisiatif sederhana sekumpulan kreator dan mahasiswa yang prihatin melihat rekan-rekannya kesulitan mendapatkan alat kerja yang layak. Kami meyakini bahwa <strong>akses terhadap perangkat lunak premium terbaik seharusnya tidak menjadi hak eksklusif mereka yang berdompet tebal</strong>.
+                </p>
+                <p>
+                    Sejak hari pertama, kami menetapkan prinsip tidak pernah menjual aplikasi bajakan atau metode ilegal. Kami mengelola skema langganan resmi (family sharing legal &amp; educational accounts), memberikan panduan step-by-step dalam bahasa manusia yang ramah, dan mendampingi setiap pelanggan layaknya seorang sahabat.
+                </p>
                 <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
                     <a href="cerita.html" class="btn btn-primary">
-                        <span>Baca Kisah &amp; Persona Pengguna</span>
+                        <span>Baca Cerita Lengkap &amp; Kuis Kebutuhan Digital</span>
                         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                             <line x1="5" y1="12" x2="19" y2="12"></line>
                             <polyline points="12 5 19 12 12 19"></polyline>
                         </svg>
                     </a>
-                    <a href="cerita.html#bab-5" class="btn btn-secondary">
-                        Kuis Temukan Ceritamu
+                    <a href="https://wa.me/6285714310516?text=Halo%20Admin%20Bernadya%20Store%2C%20saya%20tertarik%20tanya%20aplikasi%20premium" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                        Tanya Admin via WhatsApp
                     </a>
                 </div>
             </div>
 
-            <div class="story-teaser-visual">
+            <div class="story-deep-image-wrap">
                 <img src="assets/images/story-hero.jpg" alt="Ruang Kerja Kreatif Bernadya Store" loading="lazy">
-                <div class="story-teaser-floating-badge">
-                    <div class="floating-icon" aria-hidden="true">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <div class="story-deep-tag">
+                    <div class="story-deep-tag-icon" aria-hidden="true">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
                             <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
                         </svg>
                     </div>
                     <div>
-                        <strong>Kurasi dari Hati</strong>
-                        <span>Menghubungkan impian dengan teknologi</span>
+                        <strong>Dedikasi Penuh</strong>
+                        <span>Melayani dengan integritas sejak 2023</span>
                     </div>
                 </div>
+            </div>
+        </div>
+
+        <!-- 4 Personas Mini Grid -->
+                <!-- 4 Personas Rich Visual Grid (Gambar Campur Tulisan) -->
+        <div style="text-align: center; margin-bottom: var(--spacing-xl);">
+            <h3 class="story-personas-title" style="font-size: 1.85rem; margin-bottom: 0.5rem;">
+                Jejak Nyata: 4 Kisah Perjalanan Sahabat Bernadya Store
+            </h3>
+            <p style="max-width: 760px; margin: 0 auto; font-size: var(--font-size-sm); color: var(--color-text-secondary); line-height: 1.7;">
+                Bukan sekadar angka statistik. Inilah 4 kisah inspiratif dari mereka yang telah membuktikan bagaimana akses aplikasi premium resmi, terjangkau, dan bergaransi mengubah cara mereka berkarya dan mencapai impian.
+            </p>
+        </div>
+
+        <div class="story-persona-grid" style="margin-bottom: var(--spacing-2xl);">
+            <!-- Persona 1: Sarah -->
+            <article class="story-persona-card">
+                <div class="persona-image-header">
+                    <img src="assets/images/slide-creative.jpg" alt="Sarah Annisa - Freelance Graphic Designer" loading="lazy">
+                    <span class="persona-tag-pill">🎨 Desain &amp; Kreator</span>
+                </div>
+                <div class="persona-card-body">
+                    <div class="persona-header-meta">
+                        <div class="persona-name-role">
+                            <h3>Sarah Annisa (24 Tahun)</h3>
+                            <span>Freelance Graphic Designer &bull; Bandung</span>
+                        </div>
+                    </div>
+                    <div class="persona-tools-stack">
+                        <span class="persona-tool-badge">Canva Pro</span>
+                        <span class="persona-tool-badge">CapCut Pro</span>
+                    </div>
+                    <h4 style="font-size: 1.08rem; color: var(--color-navy); margin-bottom: 0.65rem; line-height: 1.4; font-weight: 700;">
+                        "Dari Desainer Minim Modal Jadi Punya 5 Klien UMKM Tetap"
+                    </h4>
+                    <div class="persona-quote-box">
+                        "Dulu pusing nyari aset grafis tanpa watermark. Sekarang workflow desain saya 3x lebih cepat dan rutin handle 5 klien UMKM tetap!"
+                    </div>
+                    <p class="persona-story-desc">
+                        Waktu awal freelance di kosan Bandung, Sarah selalu kehabisan waktu berjam-jam hanya mencari aset grafis gratis tanpa watermark hak cipta. Mau langganan resmi Canva &amp; CapCut, biayanya mahal dan wajib kartu kredit. Di Bernadya Store, Sarah mengaktifkan akun resmi dalam 5 menit via WA dengan harga kantong mahasiswa. Hasilnya, pengerjaan konten sosial media dipangkas dari 6 jam jadi hanya 90 menit per proyek.
+                    </p>
+                    <div class="persona-card-footer">
+                        <span class="persona-stat-chip">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline><polyline points="17 6 23 6 23 12"></polyline></svg>
+                            Efisiensi Kerja Naik 75%
+                        </span>
+                        <a href="produk/canva-pro.html" class="btn btn-outline btn-sm">Lihat Canva Pro &rarr;</a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Persona 2: Dimas -->
+            <article class="story-persona-card">
+                <div class="persona-image-header">
+                    <img src="assets/images/slide-productivity.jpg" alt="Dimas Prasetyo - Mahasiswa Skripsi" loading="lazy">
+                    <span class="persona-tag-pill">🎓 Riset &amp; Akademisi</span>
+                </div>
+                <div class="persona-card-body">
+                    <div class="persona-header-meta">
+                        <div class="persona-name-role">
+                            <h3>Dimas Prasetyo (21 Tahun)</h3>
+                            <span>Mahasiswa Teknik Informatika &bull; Yogyakarta</span>
+                        </div>
+                    </div>
+                    <div class="persona-tools-stack">
+                        <span class="persona-tool-badge">ChatGPT Plus (GPT-4o)</span>
+                        <span class="persona-tool-badge">Grammarly</span>
+                    </div>
+                    <h4 style="font-size: 1.08rem; color: var(--color-navy); margin-bottom: 0.65rem; line-height: 1.4; font-weight: 700;">
+                        "Skripsi Tuntas 2 Bulan Lebih Cepat &amp; Lolos Turnitin Cum Laude"
+                    </h4>
+                    <div class="persona-quote-box">
+                        "Skripsi saya lolos Turnitin dan tuntas 2 bulan lebih cepat berkat bantuan riset AI GPT-4o dan pengecekan tata bahasa resmi."
+                    </div>
+                    <p class="persona-story-desc">
+                        Dimas sempat stres berat saat bab pembahasan skripsinya mandek berminggu-minggu. Membaca ratusan jurnal berbahasa Inggris membuatnya kelelahan, dan ChatGPT gratisan selalu terkena limit antrean. Melalui Bernadya Store, Dimas mengaktifkan ChatGPT Plus dan Grammarly via QRIS. Analisis metodologi AI membantunya membedah riset dalam hitungan menit hingga ia lulus sidang dengan predikat Cum Laude.
+                    </p>
+                    <div class="persona-card-footer">
+                        <span class="persona-stat-chip">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline><polyline points="17 6 23 6 23 12"></polyline></svg>
+                            Skripsi Tuntas 2 Bulan Lebih Awal
+                        </span>
+                        <a href="produk/chatgpt-plus.html" class="btn btn-outline btn-sm">Lihat ChatGPT Plus &rarr;</a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Persona 3: Nadia & Raka -->
+            <article class="story-persona-card">
+                <div class="persona-image-header">
+                    <img src="assets/images/slide-entertainment.jpg" alt="Keluarga Nadia & Raka" loading="lazy">
+                    <span class="persona-tag-pill">🎬 Streaming Keluarga</span>
+                </div>
+                <div class="persona-card-body">
+                    <div class="persona-header-meta">
+                        <div class="persona-name-role">
+                            <h3>Nadia &amp; Raka (Keluarga Muda)</h3>
+                            <span>Orang Tua 2 Balita &bull; Jakarta Selatan</span>
+                        </div>
+                    </div>
+                    <div class="persona-tools-stack">
+                        <span class="persona-tool-badge">Netflix 4K UHD</span>
+                        <span class="persona-tool-badge">YouTube Premium</span>
+                    </div>
+                    <h4 style="font-size: 1.08rem; color: var(--color-navy); margin-bottom: 0.65rem; line-height: 1.4; font-weight: 700;">
+                        "Akhir Pekan Hangat Bebas Iklan &amp; Hemat Biaya Hiburan 80%"
+                    </h4>
+                    <div class="persona-quote-box">
+                        "Akhir pekan sekeluarga nonton film 4K jernih dan anak-anak bebas iklan yang tidak pantas, hemat tanpa pusing tagihan dollar."
+                    </div>
+                    <p class="persona-story-desc">
+                        Nadia cemas saat kedua anaknya sering disuguhi iklan komersial tak terduga saat menonton video edukasi anak di YouTube. Langganan resmi dollar juga menguras anggaran bulanan. Lewat Bernadya Store, paket keluarga Netflix 4K UHD dan YouTube Premium diaktifkan dalam hitungan menit di Smart TV dan tablet anak, memberikan tontonan aman sekaligus menghemat lebih dari Rp 250.000 per bulan.
+                    </p>
+                    <div class="persona-card-footer">
+                        <span class="persona-stat-chip">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline><polyline points="17 6 23 6 23 12"></polyline></svg>
+                            Hemat Rp 250rb/Bulan
+                        </span>
+                        <a href="produk/netflix-premium.html" class="btn btn-outline btn-sm">Lihat Netflix 4K &rarr;</a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Persona 4: Hendra -->
+            <article class="story-persona-card">
+                <div class="persona-image-header">
+                    <img src="assets/images/story-community.jpg" alt="Hendra Kurniawan - Remote Software Engineer" loading="lazy">
+                    <span class="persona-tag-pill">💻 Developer &amp; Tech</span>
+                </div>
+                <div class="persona-card-body">
+                    <div class="persona-header-meta">
+                        <div class="persona-name-role">
+                            <h3>Hendra Kurniawan (30 Tahun)</h3>
+                            <span>Remote Software Engineer &bull; Surabaya</span>
+                        </div>
+                    </div>
+                    <div class="persona-tools-stack">
+                        <span class="persona-tool-badge">GitHub Copilot</span>
+                        <span class="persona-tool-badge">Microsoft 365</span>
+                    </div>
+                    <h4 style="font-size: 1.08rem; color: var(--color-navy); margin-bottom: 0.65rem; line-height: 1.4; font-weight: 700;">
+                        "Sprint Coding 2x Lebih Cepat Tanpa Was-Was Akun Terblokir"
+                    </h4>
+                    <div class="persona-quote-box">
+                        "Coding sprint jadi jauh lebih efisien. Lisensi resmi aman langsung ke akun pribadi tanpa takut akun developer ke-banned."
+                    </div>
+                    <p class="persona-story-desc">
+                        Sebagai programmer remote klien luar negeri, Hendra butuh GitHub Copilot untuk menyelesaikan backlog fitur padat. Pernah tergiur lisensi murah di forum gelap yang ternyata crack bajakan, akunnya di-suspend dan proyek terhambat. Hendra lalu beralih ke Bernadya Store karena jaminan 100% lisensi resmi yang stabil dan bergaransi penuh, memangkas waktu coding boilerplate hingga 50%.
+                    </p>
+                    <div class="persona-card-footer">
+                        <span class="persona-stat-chip">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline><polyline points="17 6 23 6 23 12"></polyline></svg>
+                            Sprint Coding 50% Lebih Cepat
+                        </span>
+                        <a href="produk/github-copilot.html" class="btn btn-outline btn-sm">Lihat GitHub Copilot &rarr;</a>
+                    </div>
+                </div>
+            </article>
+        </div>
+
+        <!-- Trust Milestone Dark Card -->
+        <div class="story-trust-card">
+            <div class="story-trust-grid">
+                <div class="story-trust-item">
+                    <div class="story-trust-icon" aria-hidden="true">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+                    </div>
+                    <h4>5 Menit</h4>
+                    <p>Aktivasi Kilat via WhatsApp</p>
+                </div>
+                <div class="story-trust-item">
+                    <div class="story-trust-icon" aria-hidden="true">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                    </div>
+                    <h4>100%</h4>
+                    <p>Garansi Penuh Ganti Baru</p>
+                </div>
+                <div class="story-trust-item">
+                    <div class="story-trust-icon" aria-hidden="true">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                    </div>
+                    <h4>24/7</h4>
+                    <p>Dukungan Pelanggan Ramah</p>
+                </div>
+                <div class="story-trust-item">
+                    <div class="story-trust-icon" aria-hidden="true">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                    </div>
+                    <h4>15.000+</h4>
+                    <p>Sahabat Digital Puas</p>
+                </div>
+            </div>
+
+            <div class="story-cta-flex">
+                <span style="font-size: 0.95rem; color: #E2E8F0; font-weight: 500;">
+                    Siap Mengupgrade Kemampuan Digital Anda Hari Ini?
+                </span>
+                <a href="https://wa.me/6285714310516?text=Halo%20Admin%20Bernadya%20Store%2C%20saya%20ingin%20pesan%20aplikasi%20premium" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+                    </svg>
+                    Pesan Langsung via WhatsApp
+                </a>
+                <a href="produk.html" class="btn btn-outline" style="border-color: rgba(255,255,255,0.3); color: #FFFFFF;">
+                    Lihat Seluruh 24+ Katalog &rarr;
+                </a>
             </div>
         </div>
     </div>
@@ -345,167 +664,290 @@
         <div class="section-header">
             <span class="section-tag">Aplikasi Terpopuler</span>
             <h2>Produk Digital Paling Banyak Dicari</h2>
-            <p>Rekomendasi perangkat lunak terbaik dengan ulasan fitur lengkap dan petunjuk penggunaan yang jelas.</p>
+            <p>Rekomendasi perangkat lunak dan langganan premium terbaik dengan ulasan fitur lengkap, keaslian terjamin, dan panduan penggunaan yang jelas.</p>
+        </div>
+
+        <!-- Category Shortcut Pills on Homepage -->
+        <div style="display: flex; justify-content: center; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 2rem;">
+            <a href="produk.html" class="filter-pill active">Semua Unggulan</a>
+            <a href="produk.html?category=productivity" class="filter-pill">🤖 AI &amp; Produktivitas</a>
+            <a href="produk.html?category=creative-design" class="filter-pill">🎨 Desain &amp; Kreator</a>
+            <a href="produk.html?category=entertainment" class="filter-pill">🎬 Streaming &amp; Musik</a>
+            <a href="produk.html?category=education" class="filter-pill">🎓 Edukasi &amp; Menulis</a>
+            <a href="produk.html?category=utilities" class="filter-pill">☁️ Storage &amp; VPN</a>
         </div>
 
         <div class="products-grid">
+            <div class="product-card" style="--card-app-color: #10A37F;">
+                <div class="product-card-top">
+                    <div class="product-logo-box" aria-hidden="true">
+                        <img src="assets/images/logos/chatgpt-plus.svg" alt="Logo Resmi ChatGPT Plus (GPT-4o)" class="product-custom-logo" width="38" height="38" loading="lazy">
+                    </div>
+                    <span class="badge badge-emerald product-badge">AI Paling Populer</span>
+                </div>
+                <div class="product-category">Productivity</div>
+                <h3 class="product-name">
+                    <a href="produk/chatgpt-plus.html">ChatGPT Plus (GPT-4o)</a>
+                </h3>
+                <p class="product-desc">Akses model tercanggih GPT-4o, pembuatan gambar DALL·E 3, analisis dokumen instan, dan respons kilat tanpa batas antrean.</p>
+                <div class="product-footer">
+                    <a href="produk/chatgpt-plus.html" class="btn btn-secondary btn-sm btn-product-action">
+                        <span>Informasi &amp; Order</span>
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg>
+                    </a>
+                </div>
+            </div>
             <div class="product-card" style="--card-app-color: #00C4CC;">
-        <div class="product-card-top">
-            <div class="product-logo-box" aria-hidden="true">
-                <svg width="36" height="36" viewBox="0 0 48 48" fill="none">
-                <rect width="48" height="48" rx="10" fill="#00C4CC"/>
-                <path d="M26.2 31.8c-4.2 0-7.3-3.1-7.3-7.8 0-5.2 3.8-9 9.3-9 3.2 0 5.4 1.4 6.2 3.7l-3.3 1.4c-.5-1.3-1.6-2-2.9-2-3 0-5 2.5-5 5.8 0 3 1.8 4.9 4.3 4.9 1.7 0 3-.9 3.6-2.2l3.2 1.5c-1.2 2.3-3.8 3.7-8.2 3.7z" fill="#FFFFFF"/>
-            </svg>
+                <div class="product-card-top">
+                    <div class="product-logo-box" aria-hidden="true">
+                        <img src="assets/images/logos/canva-pro.svg" alt="Logo Resmi Canva Pro" class="product-custom-logo" width="38" height="38" loading="lazy">
+                    </div>
+                    <span class="badge badge-amber product-badge">Terpopuler</span>
+                </div>
+                <div class="product-category">Creative & Design</div>
+                <h3 class="product-name">
+                    <a href="produk/canva-pro.html">Canva Pro</a>
+                </h3>
+                <p class="product-desc">Platform desain grafis intuitif dengan jutaan aset premium, penghapus latar belakang AI, dan kolaborasi tim.</p>
+                <div class="product-footer">
+                    <a href="produk/canva-pro.html" class="btn btn-secondary btn-sm btn-product-action">
+                        <span>Informasi &amp; Order</span>
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg>
+                    </a>
+                </div>
             </div>
-            <span class="badge badge-amber product-badge">Terpopuler</span>
-        </div>
-        <div class="product-category">Creative &amp; Design</div>
-        <h3 class="product-name">
-            <a href="produk/canva-pro.html">Canva Pro</a>
-        </h3>
-        <p class="product-desc">Platform desain grafis intuitif dengan jutaan aset premium, penghapus latar belakang AI, dan kolaborasi tim.</p>
-        <div class="product-footer">
-            <a href="produk/canva-pro.html" class="btn btn-secondary btn-sm btn-product-action">
-                <span>Informasi Lengkap</span>
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <line x1="5" y1="12" x2="19" y2="12"></line>
-                    <polyline points="12 5 19 12 12 19"></polyline>
-                </svg>
-            </a>
-        </div>
-    </div><div class="product-card" style="--card-app-color: #FF0000;">
-        <div class="product-card-top">
-            <div class="product-logo-box" aria-hidden="true">
-                <svg width="36" height="36" viewBox="0 0 48 48" fill="none">
-                <rect width="48" height="48" rx="10" fill="#FF0000"/>
-                <path d="M36.8 17.5c-.4-1.6-1.7-2.9-3.3-3.3C30.6 13.3 24 13.3 24 13.3s-6.6 0-9.5.9c-1.6.4-2.9 1.7-3.3 3.3C10.3 20.4 10.3 24 10.3 24s0 3.6.9 6.5c.4 1.6 1.7 2.9 3.3 3.3 2.9.9 9.5.9 9.5.9s6.6 0 9.5-.9c1.6-.4 2.9-1.7 3.3-3.3.9-2.9.9-6.5.9-6.5s0-3.6-.9-6.5z" fill="#FFFFFF"/>
-                <polygon points="21.3,28.5 28.5,24 21.3,19.5" fill="#FF0000"/>
-            </svg>
+            <div class="product-card" style="--card-app-color: #E50914;">
+                <div class="product-card-top">
+                    <div class="product-logo-box" aria-hidden="true">
+                        <img src="assets/images/logos/netflix-premium.svg" alt="Logo Resmi Netflix Premium" class="product-custom-logo" width="38" height="38" loading="lazy">
+                    </div>
+                    <span class="badge badge-rose product-badge">Streaming Favorit</span>
+                </div>
+                <div class="product-category">Entertainment</div>
+                <h3 class="product-name">
+                    <a href="produk/netflix-premium.html">Netflix Premium</a>
+                </h3>
+                <p class="product-desc">Layanan streaming film, serial, dan dokumenter orisinal dengan kualitas Ultra HD 4K dan audio spasial.</p>
+                <div class="product-footer">
+                    <a href="produk/netflix-premium.html" class="btn btn-secondary btn-sm btn-product-action">
+                        <span>Informasi &amp; Order</span>
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg>
+                    </a>
+                </div>
             </div>
-            <span class="badge badge-amber product-badge">Pilihan Utama</span>
-        </div>
-        <div class="product-category">Entertainment</div>
-        <h3 class="product-name">
-            <a href="produk/youtube-premium.html">YouTube Premium</a>
-        </h3>
-        <p class="product-desc">Tonton seluruh konten video tanpa iklan, pemutaran di latar belakang, dan akses penuh ke YouTube Music.</p>
-        <div class="product-footer">
-            <a href="produk/youtube-premium.html" class="btn btn-secondary btn-sm btn-product-action">
-                <span>Informasi Lengkap</span>
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <line x1="5" y1="12" x2="19" y2="12"></line>
-                    <polyline points="12 5 19 12 12 19"></polyline>
-                </svg>
-            </a>
-        </div>
-    </div><div class="product-card" style="--card-app-color: #E50914;">
-        <div class="product-card-top">
-            <div class="product-logo-box" aria-hidden="true">
-                <svg width="36" height="36" viewBox="0 0 48 48" fill="none">
-                <rect width="48" height="48" rx="10" fill="#141414"/>
-                <path d="M16 12h4.5v24H16z" fill="#E50914"/>
-                <path d="M27.5 12H32v24h-4.5z" fill="#E50914"/>
-                <path d="M16 12l11.5 24H32L20.5 12z" fill="#B81D24"/>
-            </svg>
+            <div class="product-card" style="--card-app-color: #FF0000;">
+                <div class="product-card-top">
+                    <div class="product-logo-box" aria-hidden="true">
+                        <img src="assets/images/logos/youtube-premium.svg" alt="Logo Resmi YouTube Premium" class="product-custom-logo" width="38" height="38" loading="lazy">
+                    </div>
+                    <span class="badge badge-amber product-badge">Pilihan Utama</span>
+                </div>
+                <div class="product-category">Entertainment</div>
+                <h3 class="product-name">
+                    <a href="produk/youtube-premium.html">YouTube Premium</a>
+                </h3>
+                <p class="product-desc">Tonton seluruh konten video tanpa iklan, pemutaran di latar belakang, dan akses penuh ke YouTube Music.</p>
+                <div class="product-footer">
+                    <a href="produk/youtube-premium.html" class="btn btn-secondary btn-sm btn-product-action">
+                        <span>Informasi &amp; Order</span>
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg>
+                    </a>
+                </div>
             </div>
-            <span class="badge badge-rose product-badge">Streaming Favorit</span>
-        </div>
-        <div class="product-category">Entertainment</div>
-        <h3 class="product-name">
-            <a href="produk/netflix-premium.html">Netflix Premium</a>
-        </h3>
-        <p class="product-desc">Layanan streaming film, serial, dan dokumenter orisinal dengan kualitas Ultra HD 4K dan audio spasial.</p>
-        <div class="product-footer">
-            <a href="produk/netflix-premium.html" class="btn btn-secondary btn-sm btn-product-action">
-                <span>Informasi Lengkap</span>
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <line x1="5" y1="12" x2="19" y2="12"></line>
-                    <polyline points="12 5 19 12 12 19"></polyline>
-                </svg>
-            </a>
-        </div>
-    </div><div class="product-card" style="--card-app-color: #000000;">
-        <div class="product-card-top">
-            <div class="product-logo-box" aria-hidden="true">
-                <svg width="36" height="36" viewBox="0 0 48 48" fill="none">
-                <rect width="48" height="48" rx="10" fill="#111827"/>
-                <path d="M13 17l11 7-11 7V17z" fill="#FFFFFF"/>
-                <path d="M35 17l-11 7 11 7V17z" fill="#FFFFFF"/>
-                <path d="M13 14h22v3H13zM13 31h22v3H13z" fill="#38BDF8"/>
-            </svg>
+            <div class="product-card" style="--card-app-color: #2B3245;">
+                <div class="product-card-top">
+                    <div class="product-logo-box" aria-hidden="true">
+                        <img src="assets/images/logos/midjourney.svg" alt="Logo Resmi Midjourney v6" class="product-custom-logo" width="38" height="38" loading="lazy">
+                    </div>
+                    <span class="badge badge-purple product-badge">Generator AI #1</span>
+                </div>
+                <div class="product-category">Creative & Design</div>
+                <h3 class="product-name">
+                    <a href="produk/midjourney.html">Midjourney v6</a>
+                </h3>
+                <p class="product-desc">Generator seni AI visual terkemuka dunia dengan detail photorealistic, resolusi tinggi, dan kontrol gaya artistik komersial.</p>
+                <div class="product-footer">
+                    <a href="produk/midjourney.html" class="btn btn-secondary btn-sm btn-product-action">
+                        <span>Informasi &amp; Order</span>
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg>
+                    </a>
+                </div>
             </div>
-            <span class="badge badge-purple product-badge">Creator Choice</span>
-        </div>
-        <div class="product-category">Creative &amp; Design</div>
-        <h3 class="product-name">
-            <a href="produk/capcut-pro.html">CapCut Pro</a>
-        </h3>
-        <p class="product-desc">Editor video andalan kreator dengan fitur AI pemotong klip, teks otomatis, efek visual pro, dan ekspor 4K 60fps.</p>
-        <div class="product-footer">
-            <a href="produk/capcut-pro.html" class="btn btn-secondary btn-sm btn-product-action">
-                <span>Informasi Lengkap</span>
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <line x1="5" y1="12" x2="19" y2="12"></line>
-                    <polyline points="12 5 19 12 12 19"></polyline>
-                </svg>
-            </a>
-        </div>
-    </div><div class="product-card" style="--card-app-color: #2D8CFF;">
-        <div class="product-card-top">
-            <div class="product-logo-box" aria-hidden="true">
-                <svg width="36" height="36" viewBox="0 0 48 48" fill="none">
-                <rect width="48" height="48" rx="10" fill="#2D8CFF"/>
-                <rect x="12" y="17" width="16" height="14" rx="3" fill="#FFFFFF"/>
-                <path d="M28 20.5l8-4.5v16l-8-4.5v-7z" fill="#FFFFFF"/>
-            </svg>
+            <div class="product-card" style="--card-app-color: #D97706;">
+                <div class="product-card-top">
+                    <div class="product-logo-box" aria-hidden="true">
+                        <img src="assets/images/logos/claude-pro.svg" alt="Logo Resmi Claude Pro (Anthropic)" class="product-custom-logo" width="38" height="38" loading="lazy">
+                    </div>
+                    <span class="badge badge-amber product-badge">AI Riset & Analisis</span>
+                </div>
+                <div class="product-category">Productivity</div>
+                <h3 class="product-name">
+                    <a href="produk/claude-pro.html">Claude Pro (Anthropic)</a>
+                </h3>
+                <p class="product-desc">Model AI cerdas dengan context window 200k tokens untuk membaca buku, riset jurnal panjang, koding presisi, dan penulisan alami.</p>
+                <div class="product-footer">
+                    <a href="produk/claude-pro.html" class="btn btn-secondary btn-sm btn-product-action">
+                        <span>Informasi &amp; Order</span>
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg>
+                    </a>
+                </div>
             </div>
-            <span class="badge badge-indigo product-badge">Work &amp; Study</span>
-        </div>
-        <div class="product-category">Productivity</div>
-        <h3 class="product-name">
-            <a href="produk/zoom-pro.html">Zoom Pro</a>
-        </h3>
-        <p class="product-desc">Solusi pertemuan daring tanpa batasan durasi 40 menit, kapasitas 100 partisipan, dan rekaman cloud otomatis.</p>
-        <div class="product-footer">
-            <a href="produk/zoom-pro.html" class="btn btn-secondary btn-sm btn-product-action">
-                <span>Informasi Lengkap</span>
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <line x1="5" y1="12" x2="19" y2="12"></line>
-                    <polyline points="12 5 19 12 12 19"></polyline>
-                </svg>
-            </a>
-        </div>
-    </div><div class="product-card" style="--card-app-color: #113CCF;">
-        <div class="product-card-top">
-            <div class="product-logo-box" aria-hidden="true">
-                <svg width="36" height="36" viewBox="0 0 48 48" fill="none">
-                <rect width="48" height="48" rx="10" fill="#113CCF"/>
-                <path d="M14 24c0-5.5 4.5-10 10-10s10 4.5 10 10-4.5 10-10 10-10-4.5-10-10z" stroke="#FFFFFF" stroke-width="2.5" fill="none"/>
-                <path d="M22 17v14l10-7-10-7z" fill="#FFFFFF"/>
-            </svg>
+            <div class="product-card" style="--card-app-color: #111827;">
+                <div class="product-card-top">
+                    <div class="product-logo-box" aria-hidden="true">
+                        <img src="assets/images/logos/capcut-pro.svg" alt="Logo Resmi CapCut Pro" class="product-custom-logo" width="38" height="38" loading="lazy">
+                    </div>
+                    <span class="badge badge-purple product-badge">Creator Choice</span>
+                </div>
+                <div class="product-category">Creative & Design</div>
+                <h3 class="product-name">
+                    <a href="produk/capcut-pro.html">CapCut Pro</a>
+                </h3>
+                <p class="product-desc">Editor video andalan kreator dengan fitur AI pemotong klip, teks otomatis, efek visual pro, dan ekspor 4K 60fps.</p>
+                <div class="product-footer">
+                    <a href="produk/capcut-pro.html" class="btn btn-secondary btn-sm btn-product-action">
+                        <span>Informasi &amp; Order</span>
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg>
+                    </a>
+                </div>
             </div>
-            <span class="badge badge-blue product-badge">Family &amp; Movies</span>
+            <div class="product-card" style="--card-app-color: #1DB954;">
+                <div class="product-card-top">
+                    <div class="product-logo-box" aria-hidden="true">
+                        <img src="assets/images/logos/spotify-premium.svg" alt="Logo Resmi Spotify Premium" class="product-custom-logo" width="38" height="38" loading="lazy">
+                    </div>
+                    <span class="badge badge-emerald product-badge">Musik & Podcast</span>
+                </div>
+                <div class="product-category">Entertainment</div>
+                <h3 class="product-name">
+                    <a href="produk/spotify-premium.html">Spotify Premium</a>
+                </h3>
+                <p class="product-desc">Dengarkan jutaan lagu dan podcast tanpa jeda iklan, audio berkualitas tinggi, serta fitur download lagu offline.</p>
+                <div class="product-footer">
+                    <a href="produk/spotify-premium.html" class="btn btn-secondary btn-sm btn-product-action">
+                        <span>Informasi &amp; Order</span>
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="product-card" style="--card-app-color: #1E293B;">
+                <div class="product-card-top">
+                    <div class="product-logo-box" aria-hidden="true">
+                        <img src="assets/images/logos/notion-plus.svg" alt="Logo Resmi Notion Plus & AI" class="product-custom-logo" width="38" height="38" loading="lazy">
+                    </div>
+                    <span class="badge badge-blue product-badge">Workspace All-in-One</span>
+                </div>
+                <div class="product-category">Productivity</div>
+                <h3 class="product-name">
+                    <a href="produk/notion-plus.html">Notion Plus & AI</a>
+                </h3>
+                <p class="product-desc">Aplikasi catatan terpadu, kanban board, manajemen proyek tim, database fleksibel, dan asisten penulisan AI otomatis.</p>
+                <div class="product-footer">
+                    <a href="produk/notion-plus.html" class="btn btn-secondary btn-sm btn-product-action">
+                        <span>Informasi &amp; Order</span>
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="product-card" style="--card-app-color: #D83B01;">
+                <div class="product-card-top">
+                    <div class="product-logo-box" aria-hidden="true">
+                        <img src="assets/images/logos/microsoft-365.svg" alt="Logo Resmi Microsoft 365" class="product-custom-logo" width="38" height="38" loading="lazy">
+                    </div>
+                    <span class="badge badge-blue product-badge">Office All-in-One</span>
+                </div>
+                <div class="product-category">Productivity</div>
+                <h3 class="product-name">
+                    <a href="produk/microsoft-365.html">Microsoft 365</a>
+                </h3>
+                <p class="product-desc">Paket aplikasi produktivitas perkantoran lengkap (Word, Excel, PowerPoint, Outlook) plus 1 TB OneDrive.</p>
+                <div class="product-footer">
+                    <a href="produk/microsoft-365.html" class="btn btn-secondary btn-sm btn-product-action">
+                        <span>Informasi &amp; Order</span>
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="product-card" style="--card-app-color: #2D8CFF;">
+                <div class="product-card-top">
+                    <div class="product-logo-box" aria-hidden="true">
+                        <img src="assets/images/logos/zoom-pro.svg" alt="Logo Resmi Zoom Pro" class="product-custom-logo" width="38" height="38" loading="lazy">
+                    </div>
+                    <span class="badge badge-indigo product-badge">Work & Study</span>
+                </div>
+                <div class="product-category">Productivity</div>
+                <h3 class="product-name">
+                    <a href="produk/zoom-pro.html">Zoom Pro</a>
+                </h3>
+                <p class="product-desc">Solusi pertemuan daring tanpa batasan durasi 40 menit, kapasitas 100 partisipan, dan rekaman cloud otomatis.</p>
+                <div class="product-footer">
+                    <a href="produk/zoom-pro.html" class="btn btn-secondary btn-sm btn-product-action">
+                        <span>Informasi &amp; Order</span>
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="product-card" style="--card-app-color: #113CCF;">
+                <div class="product-card-top">
+                    <div class="product-logo-box" aria-hidden="true">
+                        <img src="assets/images/logos/disney-hotstar.svg" alt="Logo Resmi Disney+ Hotstar" class="product-custom-logo" width="38" height="38" loading="lazy">
+                    </div>
+                    <span class="badge badge-blue product-badge">Family & Movies</span>
+                </div>
+                <div class="product-category">Entertainment</div>
+                <h3 class="product-name">
+                    <a href="produk/disney-hotstar.html">Disney+ Hotstar</a>
+                </h3>
+                <p class="product-desc">Pusat tontonan blockbuster Disney, Marvel, Pixar, Star Wars, National Geographic, dan film lokal eksklusif.</p>
+                <div class="product-footer">
+                    <a href="produk/disney-hotstar.html" class="btn btn-secondary btn-sm btn-product-action">
+                        <span>Informasi &amp; Order</span>
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg>
+                    </a>
+                </div>
+            </div>
         </div>
-        <div class="product-category">Entertainment</div>
-        <h3 class="product-name">
-            <a href="produk/disney-hotstar.html">Disney+ Hotstar</a>
-        </h3>
-        <p class="product-desc">Pusat tontonan blockbuster Disney, Marvel, Pixar, Star Wars, National Geographic, dan film lokal eksklusif.</p>
-        <div class="product-footer">
-            <a href="produk/disney-hotstar.html" class="btn btn-secondary btn-sm btn-product-action">
-                <span>Informasi Lengkap</span>
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <line x1="5" y1="12" x2="19" y2="12"></line>
-                    <polyline points="12 5 19 12 12 19"></polyline>
-                </svg>
-            </a>
-        </div>
-    </div>
         </div>
 
         <div style="text-align: center; margin-top: var(--spacing-2xl);">
-            <a href="produk.html" class="btn btn-primary btn-lg">
-                <span>Lihat Semua Produk (12 Aplikasi)</span>
+            <a href="produk.html" class="btn btn-primary btn-lg" style="box-shadow: 0 6px 20px rgba(37, 99, 235, 0.35);">
+                <span>Lihat Seluruh Katalog (24+ Aplikasi Lengkap &amp; Filter Live)</span>
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                     <line x1="5" y1="12" x2="19" y2="12"></line>
                     <polyline points="12 5 19 12 12 19"></polyline>
@@ -795,7 +1237,7 @@
                     <h4>Navigasi</h4>
                     <ul class="footer-links">
                         <li><a href="index.html">Beranda</a></li>
-                        <li><a href="produk.html">Katalog Produk</a></li>
+                        <li><a href="produk.html">Katalog Produk (24+)</a></li>
                         <li><a href="cerita.html">Cerita Kami</a></li>
                         <li><a href="tentang.html">Tentang Kami</a></li>
                         <li><a href="faq.html">Pusat Bantuan & FAQ</a></li>

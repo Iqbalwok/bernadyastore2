@@ -69,8 +69,56 @@ document.addEventListener('DOMContentLoaded', () => {
       response: 'NordVPN Premium melindungi privasi internet dengan enkripsi AES 256-bit, fitur Threat Protection pemblokir malware dan iklan, 5000+ server cepat di 60 negara, serta kebijakan ketat No-Logs.'
     },
     {
+      keywords: ['chatgpt', 'gpt', 'gpt4', 'gpt-4o', 'openai', 'dall-e'],
+      response: 'ChatGPT Plus memberikan akses prioritas ke model AI tercanggih GPT-4o, pembuatan gambar DALL·E 3, analisis data spreadsheet, dan respons cepat tanpa antrean.'
+    },
+    {
+      keywords: ['midjourney', 'gambar ai', 'art ai', 'generate gambar'],
+      response: 'Midjourney v6 adalah generator seni AI visual terbaik di dunia dengan detail photorealistic, pencahayaan sinematik, dan lisensi komersial penuh.'
+    },
+    {
+      keywords: ['claude', 'anthropic', 'sonnet', 'claude pro'],
+      response: 'Claude Pro (Anthropic) ditenagai model Claude 3.5 Sonnet dengan context window 200k tokens untuk membaca dokumen panjang, riset komprehensif, dan koding presisi.'
+    },
+    {
+      keywords: ['notion', 'notion plus', 'notion ai', 'workspace', 'catatan'],
+      response: 'Notion Plus & AI menyediakan ruang kerja kolaboratif tanpa batas upload file, manajemen proyek kanban, database relasional, dan asisten penulisan AI otomatis.'
+    },
+    {
+      keywords: ['grammarly', 'grammar', 'cek bahasa inggris', 'plagiat'],
+      response: 'Grammarly Premium membantu mengoreksi tata bahasa Inggris secara mendalam, memperhalus nada kalimat formal/akademis, dan memindai plagiarisme miliaran halaman web.'
+    },
+    {
+      keywords: ['copilot', 'github copilot', 'koding', 'coding ai'],
+      response: 'GitHub Copilot adalah asisten koding AI yang menyarankan baris kode dan fungsi otomatis secara real-time di VS Code, JetBrains, dan Visual Studio.'
+    },
+    {
+      keywords: ['prime video', 'amazon prime'],
+      response: 'Amazon Prime Video menghadirkan ribuan film blockbuster, serial orisinal eksklusif (The Boys, Rings of Power), dan fitur X-Ray informasi aktor dalam kualitas 4K HDR.'
+    },
+    {
+      keywords: ['hbo', 'hbo go', 'hbo max'],
+      response: 'HBO GO / Max adalah pusat serial pemenang penghargaan dunia (The Last of Us, House of the Dragon, Succession) dan film blockbuster Warner Bros.'
+    },
+    {
+      keywords: ['vidio', 'vidio premier', 'liga inggris', 'bola', 'epl'],
+      response: 'Vidio Premier Platinum menyajikan siaran langsung resmi Premier League (Liga Inggris), BRI Liga 1, Champions League, drama Korea, dan film lokal eksklusif.'
+    },
+    {
+      keywords: ['apple music', 'lossless', 'spatial audio'],
+      response: 'Apple Music memberikan akses ke 100+ juta lagu dalam resolusi Hi-Res Lossless Audio 24-bit/192kHz dan Spatial Audio Dolby Atmos tanpa jeda iklan.'
+    },
+    {
+      keywords: ['coursera', 'coursera plus', 'sertifikat', 'kursus'],
+      response: 'Coursera Plus membuka akses tanpa batas ke 7.000+ kursus dan sertifikat profesional resmi dari Google, IBM, Meta, Stanford, dan universitas ternama dunia.'
+    },
+    {
+      keywords: ['google one', 'google drive', 'cloud', '2tb'],
+      response: 'Google One 2 TB memberikan kapasitas penyimpanan lega 2.000 GB untuk Google Drive, Google Foto, dan Gmail dengan fitur backup otomatis keluarga.'
+    },
+    {
       keywords: ['produk', 'katalog', 'aplikasi', 'daftar'],
-      response: 'Bernadya Store menyediakan katalog informasi 12 aplikasi digital premium dalam 5 kategori: Creative & Design, Productivity, Entertainment, Education, dan Utilities. Silakan jelajahi menu "Produk Digital" untuk spesifikasi lengkap.'
+      response: 'Bernadya Store menyediakan katalog informasi 24+ aplikasi digital premium dalam 5 kategori: Creative & Design, Productivity & AI, Entertainment, Education, dan Utilities. Silakan jelajahi menu "Produk Digital" untuk spesifikasi lengkap.'
     },
     {
       keywords: ['aktivasi', 'cara pakai', 'login', 'panduan', 'invite', 'undangan', 'masuk'],

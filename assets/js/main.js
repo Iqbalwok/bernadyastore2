@@ -4,14 +4,28 @@
  */
 
 document.addEventListener('DOMContentLoaded', () => {
-  // 1. Dynamic Year in Footer
+  // 1. Header scroll effect
+  const siteHeader = document.querySelector('.site-header');
+  if (siteHeader) {
+    const handleScroll = () => {
+      if (window.scrollY > 25) {
+        siteHeader.classList.add('scrolled');
+      } else {
+        siteHeader.classList.remove('scrolled');
+      }
+    };
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    handleScroll();
+  }
+
+  // 2. Dynamic Year in Footer
   const yearEls = document.querySelectorAll('.current-year');
   const currentYear = new Date().getFullYear();
   yearEls.forEach(el => {
     el.textContent = currentYear;
   });
 
-  // 2. Mobile Navigation Hamburger Menu
+  // 3. Mobile Navigation Hamburger Menu
   const navToggle = document.getElementById('navToggle');
   const mobileDrawer = document.getElementById('mobileDrawer');
   const mobileLinks = document.querySelectorAll('.nav-mobile-item a, .nav-mobile-content .btn');
